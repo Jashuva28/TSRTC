@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: TGSRTC BUS PASS ::</title>
+</head>
+<body>
+    <img width="50" height="50" src="https://www.tgsrtc.telangana.gov.in/images/uploads/TGSRTC_logo_1_84315be041.webp" alt="">
+    <h2 align="center">TELANGANA STATE ROAD TRANSPORT CORPORATION</h2>
+    <h2 align="center">GENERAL BUS PASS APPLICATION</h2>
+    <form action="./index.html" target="_blank" >
+        <fieldset>
+            <legend>Applicant Details</legend><br>
+            <label for="appname">Name*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="appname">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="fath_name">Father's/Gaurdian's Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="fath_name"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="">(Maximum characters: 20)</label><br>
+
+            <label for="dob">Date of birth*</label>&nbsp;&nbsp;&nbsp;
+            <input type="date" id="dob">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="">Gender*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="female" name="gender" value="Gender">
+            <label for="female">Female</label>
+            <input type="radio" id="male" name="gender" value="Gender">
+            <label for="male">Male</label><br><br>
+
+            <label for="">Age As on:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="number" id="years" min="10" max="50">
+            <label for="years"> Year(s)</label>
+            <input type="number" id="Month" min="1" max="11">
+            <label for="Day"> Month(s)</label>
+            <input type="number" id="Day(s)" min="1" max="30">
+            <label for="Day"> Day(s)</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="aadhaar">Aadhaar No:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="" id="aadhaar" maxlength="12"><br><br>
+
+            <label for="WhatsApp">WhatsApp No*</label>
+            <input type="tel" id="WhatsApp" maxlength="10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="email">E-mail Id*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" id="email"><br><br>
+
+            <label for="Photo">Photo*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="file" id="Photo">
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Pass Type Details</legend><br>
+        <label for="city">City*</label>
+        <select name="city" id="city">
+            <option value="select" selected disabled>--select--</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="warangal">warangal</option>
+            <option value="kharimnagar">kharimnagar</option>
+        </select><br><br>
+        <label for="type">Pass Type*</label>
+        <select name="Pass type" id="type">
+            <option value="select" selected disabled>--select--</option>
+            <option value="GREATER PASS">GREATER PASS</option>
+            <option value="METRO EXPRESS PASS">METRO EXPRESS PASS</option>
+            <option value="ORDINARY PASS">ORDINARY PASS</option>
+            <option value="METRO DELUXE PASS">METRO DELUXE PASS</option>
+        </select><br><br>
+        <label for="from">From Place District*</label>
+        <select name="" id="from">
+            <option value="--select--" selected disabled>--select--</option>
+            <option value="Hyderabad">hyderabad</option>
+            <option value="Warangal">Warangal</option>
+            <option value="Kharimnagar">Kharimnagar</option>
+        </select>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="to">To Place District*</label>
+        <select name="" id="to">
+            <option value="--select--" selected disabled>--select--</option>
+            <option value="Hyderabad">hyderabad</option>
+            <option value="Warangal">Warangal</option>
+            <option value="Kharimnagar">Kharimnagar</option>
+        </select><br><br>
+
+        <label for="from place">From Place*</label>
+        <input type="text" id="from place">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="to place">To Place*</label>
+        <input type="text" id="to place"><br><br>
+
+        <label for="">Route* (From-Via- To)</label>
+        <select name="" id="">
+            <option value="select" selected disabled>--select--</option>
+            <option value="Hyd-wrngl-krmngr">Hyd-wrngl-krmngr</option>
+            <option value="">krmngr-wrngl-Hyd</option>
+        </select>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
